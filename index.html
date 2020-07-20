@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MK Olsen || UX/UI Designer</title>
+        <meta name="description" content="MK Olsen is a UX/UI designer specializing in healthcare and big data.">
+        <meta name="keywords" content="HTML,CSS,JavaScript,UX Designer,UI Designer,Web Designer,Healthcare,Big Data,Analytics,Wireframe,Wireframing">
+        <meta name="author" content="MK Olsen">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Karla:700" rel="stylesheet">
+        <link rel ="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+
+  <body class="container-fluid">
+    <nav class="navbar navbar-expand-lg">
+            <div class="navbar mr-auto">
+                <a href="index.html"><img src="img/logo.png"></a>
+            </div>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="menu-button"><span>MENU</span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="index.html#featured-case-study">Featured</a>
+                <a class="nav-item nav-link active" href="work.html">Work</a>
+                <a class="nav-item nav-link active" href="about.html">About</a>
+                <a class="nav-item nav-link active" href="mailto:marykathrynolsen@gmail.com">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="opening-statement">
+            <h1>Hello. I'm MK Olsen,</br>
+                    a <span>UI/UX designer specializing in 
+                    healthcare and big data applications.</span> 
+                    I love travel, cute shoes, good food
+                    and problem solving through design.</h1>
+        </section>
+        <section id="featured-case-study">
+            <h2>Featured Case Study</h2>
+            <h4>Data Warehouse</h4>
+            <div class="scrolling-wrapper">
+                <div class="">
+                    <img class="ux-img" src="img/newlandingsearchform.png">
+                    <h5>Data Warehouse is a search engine and resource guide for SQL developers and business analysts 
+                        using the SQL databases to build queries and tableau reports. The stakeholders were looking for a 
+                        new site that was faster and visually more modern.
+                    </h5>
+                </div>
+                <div>
+                    <div class="row">
+                        <img class="ux-img-duo" src="img/persona.png" style="height: 25%;width: 25%;">
+                        <img class="ux-img-duo" src="img/journeymap.png" style="height: 50%; width:50%;">
+                    </div>
+                    <h5>UX Challenges</h5>
+                    <p>The main UX challenges facing the existing Data Warehouse site were the a clear user path and the data table that returned the search results. The user 
+                        path starts at the landing page. The user's desired end goal is the search form, but the landing page does not present a clear way to get to the search form. 
+                        There are multiple quick links and links disguised as section titles, both of which are confusing to the user. Once the user does navigate to the form, fills out the 
+                        form and submits the form, a data table is returned with all of the results. The first issue with the data table was that there was no feedback to the user that 
+                        the table was loading except for the browser tab loading symbol and the fact that the table kept growing. The second issue was that the headers were not 
+                        fixed meaning when the user scrolled down the page, they lost site of what each column meant, ultimately becoming lost in a sea of table cells. Finally, the 
+                        table cells were not responsive. They were all fixed to the same width whether they consisted of 12 characters or 120 characters. This resulted in a lot of wasted 
+                        space and wrapping of text creating different heights of rows.
+                    </p>
+                </div>
+                <div class="">
+                    <img class="ux-img" src="img/table.png">
+                    <h5>UX Solutions</h5>
+                    <p>The landing page was scrapped entirely. Since the main goal of the site was to get to the search form, we had the user arrive at the search form 
+                        immediately when they arrived at the site. All of the reference information and quick links were then place in a mega menu that was now accessible from any 
+                        page. Once the user submitted the form, they would be presented with a spinning circle until the table was fully loaded. This informs the user that there form 
+                        has been submitted and their table is loading. The table itself has fixed headers, with only the data cells scrolling. The columns were made responsive and also 
+                        given a max-width. When a data cell's contents exceeds the max-width, the data is cut-off and an ellipsis button is inserted into the cell. When the user clicks 
+                        the ellipsis, a tooltip pops up showing the user the full cell information. On export of the table to an Excel spreadsheet, all information would be displayed in the 
+                        cells.
+                    </p>
+                </div>
+                <div class="">
+                    <img class="ux-img" src="img/linkedpageslayout.png">
+                    <h5>Design Challenges</h5>
+                    <p>The existing site was quite dated and needed to be updated to more modern look. Any colors used needed to easy to read within a data table, or not take 
+                        away from the main aspects of the site. The site also needed it's own identity outside of the parent corporation. It would need it's own logo and branding. It is 
+                        also always important to bear in mind that this site, while not displaying any private medical information, is still being used to do exactly that and should adhere 
+                        to HIPAA standards when possible.
+                    </p>
+                </div>
+                <div class="">
+                    <img class="ux-img" src="img/datawarehousebranding.png">
+                    <h5>Design Solutions</h5>
+                    <p>To update the site to a more modern look, I decided to use whitespace as a key element. The whitespace would create a cleaner look overall and keep 
+                        user's gaze on the important areas. With color, I stuck with dark grey and dark navy blue as the base colors. These would be easy to read as a data table, but 
+                        combined with the white, would read professional and modern. For the accent colors, I wanted to use tonal blues to create subtle changes for all of the links on 
+                        the site and then a bright, bold orange that would tie in with the navy and grey, but give the call-to-action buttons a clear role. The branding was kept to a 
+                        minimum and in the end, only one logo would be required. The logo would sit at the top navigation bar. For the logo, I wanted to convey the deep and complex 
+                        nature of the site but keep it simple. I made the name of the site with tonal blue lines and dots that feels modern, technical, and clean.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+       
+ 
+    </main>
+    <footer id="contactFooter">
+        <div class="text-center">
+            <h3>Interested in working together?</h3>
+            <a href="mailto:marykathrynolsen@gmail.com" class="btn">Email Me</a>
+        </div>
+        <div class="row info-row">
+            <p class="col-8">&#169 2019 Designed + Developed by MK Olsen</p>
+            <div class="col-4 text-right">
+                <a href="https://www.linkedin.com/in/mk-olsen/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/mk_o1sen/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>

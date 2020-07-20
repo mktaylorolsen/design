@@ -1,0 +1,286 @@
+@font-face {
+  font-family: 'chapazaregular';
+  src: url("chapaza-webfont.woff2") format("woff2"), url("chapaza-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'modern_sanslight';
+  src: url("modernsans-light-webfont.woff2") format("woff2"), url("modernsans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "modern_sanslight";
+}
+
+p {
+  text-indent: 20px;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+h1, h2, h3, h5 {
+  font-family: "chapazaregular";
+}
+
+h1 {
+  font-size: 60px !important;
+}
+
+h2 {
+  font-size: 48px !important;
+}
+
+h4 {
+  font-family: "Karla", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #4bacb8;
+}
+
+h5 {
+  text-align: center;
+}
+
+.btn:focus, button:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.navbar {
+  display: inline;
+}
+
+.navbar img {
+  width: 12%;
+}
+
+.navbar .nav-link {
+  font-family: "Karla", sans-serif;
+  color: #4bacb8;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-bottom: 2px white solid;
+}
+
+.navbar .nav-link:hover {
+  color: #90D3F2;
+  border-bottom: 2px #90D3F2 solid;
+}
+
+.menu-button {
+  color: #4bacb8;
+  font-family: "Karla", sans-serif;
+}
+
+#opening-statement {
+  padding: 100px;
+}
+
+#opening-statement h1 span {
+  color: #4bacb8;
+}
+
+#featured-case-study, #selected-works, #about-me, #skills {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 100px;
+}
+
+#featured-case-study h5 {
+  width: 80%;
+  margin: auto;
+}
+
+#featured-case-study .ux-img-duo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 0px 20px 0px #999999;
+  box-shadow: 0px 0px 20px 0px #999999;
+}
+
+#featured-case-study .ux-img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 0px 20px 0px #999999;
+  box-shadow: 0px 0px 20px 0px #999999;
+}
+
+#about-me img {
+  width: 100%;
+}
+
+#selected-works .image-container .item {
+  padding: 0px;
+  margin-top: 40px;
+}
+
+#selected-works .image-container .item .row {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#selected-works .image-container .item h4 {
+  margin-left: 20px;
+}
+
+#selected-works .image-container .item p {
+  margin-left: 20px;
+  text-indent: 0px;
+}
+
+#selected-works .image-container .item img {
+  width: 100%;
+}
+
+#skills .skill-row {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#skills .col-md-4 {
+  margin-top: 25px;
+}
+
+#skills .fa-check {
+  color: #4bacb8;
+}
+
+footer {
+  margin-top: 100px;
+  padding-top: 50px;
+  border-top: #4bacb8 solid 1px;
+}
+
+footer h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: "Karla", sans-serif;
+}
+
+footer .btn {
+  padding: 20px;
+  font-size: 24px;
+  background-color: #4bacb8;
+  color: white;
+  font-family: "Karla", sans-serif;
+}
+
+footer .btn:hover {
+  color: #90D3F2;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  -webkit-transition: margin 0.5s ease-in-out;
+  transition: margin 0.5s ease-in-out;
+}
+
+footer .row {
+  margin: 0;
+}
+
+footer .info-row {
+  margin-top: 50px;
+}
+
+footer .info-row p {
+  text-indent: 0px;
+}
+
+footer .info-row .fab {
+  font-size: 24px;
+  color: lightgray;
+  margin-left: 10px;
+}
+
+footer .info-row .fab:hover {
+  color: #4bacb8;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar .mr-auto {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body p {
+    font-size: 12px !important;
+  }
+  body h1 {
+    font-size: 36px !important;
+  }
+  body h2 {
+    font-size: 24px !important;
+  }
+  body h4 {
+    font-size: 18px !important;
+  }
+  nav {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    background-color: white !important;
+    z-index: 10000 !important;
+  }
+  .navbar img {
+    width: 35% !important;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  main {
+    margin-top: 80px !important;
+  }
+  #featured-case-study, #skills {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-top: 50px !important;
+  }
+  #selected-works, #about-me {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-top: 125px !important;
+  }
+  #opening-statement {
+    padding: 50px;
+  }
+  .ux-img {
+    width: 100% !important;
+  }
+  .about-word {
+    margin-top: 20px;
+  }
+  #selected-works h2 {
+    margin-bottom: -25px !important;
+  }
+  .skill-row {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .skill-row .col-12 {
+    margin-bottom: 10px;
+  }
+  footer a {
+    font-size: 12px !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
